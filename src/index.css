@@ -2,11 +2,14 @@ html, body {
   background: #123;
   color: #fff;
   font-family: sans-serif;
+  overflow: hidden;
 }
 
 .title {
   text-align: center;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  display: inline-block;
+  width: 100%;
 }
 
 .main {
@@ -25,8 +28,8 @@ html, body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   border: 1px solid #fff;
   box-sizing: border-box;
   font-size: 4rem;
